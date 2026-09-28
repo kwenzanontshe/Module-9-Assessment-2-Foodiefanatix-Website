@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #2e8b57, #3cb371);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #2e8b57;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover, .active {
+    color: #c2f0c2;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/food1.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    background-color: rgba(247, 245, 245, 0.5);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* Reviews Section */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reviews h2, .about h2 {
+    text-align: center;
+    color: white;
+    margin: 40px 0 20px;
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.review-card:hover {
+    transform: scale(1.02);
+}
+
+.review-card img {
+    width: 40%;
+    height: auto;
+}
+
+.review-text {
+    padding: 20px;
+}
+
+.review-text h3 {
+    color: #2e8b57;
+    margin-bottom: 10px;
+}
+
+.rating {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.about p {
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px 20px;
+    color: white;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
